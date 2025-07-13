@@ -1,2 +1,5 @@
-MCU: ATSAMD21G18A
-LTE-MODULE: M5Stack NB-IoT 2 Unit Global Version (SIM7028) Module
+MCU: ATSAMD21G18A ~3
+LTE-MODULE: M5Stack NB-IoT 2 Unit Global Version (SIM7028) Module ~15
+
+power switching:
+https://hackaday.com/2022/10/10/lithium-ion-battery-circuitry-is-simple/
