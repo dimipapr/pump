@@ -1,0 +1,17 @@
+MCU: ATSAMD21G18A
+LTE-MODULE: M5Stack NB-IoT 2 Unit Global Version (SIM7028)
+Pressure Sensor: DFRobot SEN0257
+Display: SSD1306 OLED (I²C)
+
+
+POWER:
+    5V rail:
+        - LTE-MODULE:       600mA
+        - Pressure Sensor:  30mA
+        - 3.3V rail: 140mA
+            - MCU: 100mA
+            - Display: 40mA
+
+
+POWER SWITCHING:
+    - TPS2116DRL
