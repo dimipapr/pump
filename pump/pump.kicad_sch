@@ -1,0 +1,454 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e0be0fc6-35a9-4dbe-8638-3e88dcb86763")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 149.86 107.95 0)
+		(size 7.62 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0dcfdc95-bae8-4d1f-b889-249cb0a93adf")
+	)
+	(text_box "18650 Battery"
+		(exclude_from_sim no)
+		(at 142.24 59.69 0)
+		(size 8.89 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "22238834-7ca2-4066-a8c8-7809e201e5d8")
+	)
+	(text_box "Pressure Sensor"
+		(exclude_from_sim no)
+		(at 179.07 107.95 0)
+		(size 10.16 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "24a36a52-82e0-4997-a30c-5533f9249095")
+	)
+	(text_box "Boost Converter to 5V"
+		(exclude_from_sim no)
+		(at 140.97 69.85 0)
+		(size 10.16 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4881baef-13f2-4d03-bf8c-fa59435e08b3")
+	)
+	(text_box "Li-Ion Charger"
+		(exclude_from_sim no)
+		(at 142.24 49.53 0)
+		(size 8.89 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5c202ea5-ad6a-44f5-be72-2f4827a099c8")
+	)
+	(text_box "CONTROL RELAYS\n"
+		(exclude_from_sim no)
+		(at 193.04 107.95 0)
+		(size 10.16 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "66d45324-eb72-4123-a7cf-afbe32386e6c")
+	)
+	(text_box "Power MUX"
+		(exclude_from_sim no)
+		(at 146.05 88.9 0)
+		(size 12.7 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "877256c4-a801-44c2-9d6a-8596a0ad9a2e")
+	)
+	(text_box "12VDC"
+		(exclude_from_sim no)
+		(at 146.05 19.05 0)
+		(size 7.62 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8df8e88e-7970-4b79-8cc8-dbe4350229d7")
+	)
+	(text_box "LDO to 3V3"
+		(exclude_from_sim no)
+		(at 146.05 99.06 0)
+		(size 13.97 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "db35a26e-ddca-4438-9cc0-436119c5cfa3")
+	)
+	(text_box "LTE Module"
+		(exclude_from_sim no)
+		(at 163.83 107.95 0)
+		(size 11.43 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "de478747-f189-4832-82c0-342aa9bf06e0")
+	)
+	(text_box "5V Switching Regulator"
+		(exclude_from_sim no)
+		(at 143.51 33.02 0)
+		(size 12.7 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e2f8e631-bb46-49ac-9ebe-dcb2255b5900")
+	)
+	(polyline
+		(pts
+			(xy 153.67 41.91) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2224a47f-44d5-4060-99d1-7d244d3422b8")
+	)
+	(polyline
+		(pts
+			(xy 156.21 92.71) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22379ff4-00b1-4b32-acd5-9cb78e86313f")
+	)
+	(polyline
+		(pts
+			(xy 151.13 22.86) (xy 151.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b8fb5d-5f95-4afe-99f9-c0c6cc97a5d4")
+	)
+	(polyline
+		(pts
+			(xy 184.15 96.52) (xy 184.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cce602e-3e99-4d2d-9b25-f4ebfdcead39")
+	)
+	(polyline
+		(pts
+			(xy 146.05 55.88) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec4cf77-5439-4048-b09c-88213be78a8a")
+	)
+	(polyline
+		(pts
+			(xy 153.67 60.96) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67510885-17b6-4b04-b8cc-c415de381ad9")
+	)
+	(polyline
+		(pts
+			(xy 168.91 96.52) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e710f6-840f-4223-98d6-1e35a33792fe")
+	)
+	(polyline
+		(pts
+			(xy 146.05 66.04) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9e965a-f309-4c58-ae88-c7e20e0b5446")
+	)
+	(polyline
+		(pts
+			(xy 146.05 45.72) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b6fe43-9380-4747-ae45-6b8b6782ceb4")
+	)
+	(polyline
+		(pts
+			(xy 149.86 83.82) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c449de0-cbd4-42a9-be6d-92b807dff443")
+	)
+	(polyline
+		(pts
+			(xy 153.67 60.96) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac37a00f-f2c0-42c3-b3cc-8d33373c9e35")
+	)
+	(polyline
+		(pts
+			(xy 146.05 77.47) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f7ea12-4a74-4a78-a855-4ae347f85f3e")
+	)
+	(polyline
+		(pts
+			(xy 149.86 22.86) (xy 149.86 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1329aa-9c0f-4fe6-bc82-3d56452db3c2")
+	)
+	(polyline
+		(pts
+			(xy 168.91 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6db203b-4672-4ce9-883e-604dfe9cfcf7")
+	)
+	(polyline
+		(pts
+			(xy 146.05 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7166b45-e4aa-4fa4-a4c5-fa1f67d321be")
+	)
+	(polyline
+		(pts
+			(xy 152.4 102.87) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b30078-8596-4725-b2d3-99e8ac413377")
+	)
+	(polyline
+		(pts
+			(xy 146.05 45.72) (xy 146.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4f4987-2bf0-490f-a89d-a8b5785c0ee5")
+	)
+	(polyline
+		(pts
+			(xy 151.13 30.48) (xy 198.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae715ff-42d6-40ea-bd4f-8b5d51b96c30")
+	)
+	(polyline
+		(pts
+			(xy 198.12 30.48) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba23fd8-fa52-4260-a7f7-83217368a545")
+	)
+	(polyline
+		(pts
+			(xy 152.4 92.71) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0aabe4-7d8b-488f-9c97-94b50700eb18")
+	)
+	(polyline
+		(pts
+			(xy 146.05 41.91) (xy 146.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b22f92-46b3-405c-8eec-421109b459bd")
+	)
+	(polyline
+		(pts
+			(xy 156.21 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82cc43c-7266-45ea-b0af-884cad4d6dae")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
