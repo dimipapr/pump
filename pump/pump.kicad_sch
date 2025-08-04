@@ -484,6 +484,26 @@
 		)
 		(uuid "f90796d5-96e7-40fe-8a00-9e387196743e")
 	)
+	(text_box "800mA @ 5V\nNB-Iot2 Module\n"
+		(exclude_from_sim no)
+		(at 135.89 143.51 0)
+		(size 20.32 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "000a3244-312e-408b-bdd1-6a49ae56ee3a")
+	)
 	(text_box "MCU"
 		(exclude_from_sim no)
 		(at 149.86 107.95 0)
