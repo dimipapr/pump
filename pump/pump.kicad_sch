@@ -445,6 +445,108 @@
 		)
 		(uuid "f82cc43c-7266-45ea-b0af-884cad4d6dae")
 	)
+	(sheet
+		(at 228.6 144.78)
+		(size 36.83 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "beaabc7f-9881-4b56-8e29-dca714a8fa25")
+		(property "Sheetname" "ControlRelays"
+			(at 228.6 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_relays.kicad_sch"
+			(at 228.6 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RELAY_START" input
+			(at 228.6 152.4 180)
+			(uuid "6ea8477c-e2a2-460a-83f3-0882b2f04fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RELAY_START_COM" input
+			(at 265.43 149.86 0)
+			(uuid "658ed685-d113-40db-8df8-de7680be9e5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_START_NO" input
+			(at 265.43 152.4 0)
+			(uuid "257cf964-98a6-4537-87f3-a7d40effd79d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_STOP" input
+			(at 228.6 156.21 180)
+			(uuid "48c3ad11-ec7c-40ed-a9f2-ec6a91e23bcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RELAY_STOP_COM" input
+			(at 265.43 156.21 0)
+			(uuid "0ee8f180-d0c9-40a8-a9d7-05fb28cd31e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RELAY_STOP_NO" input
+			(at 265.43 158.75 0)
+			(uuid "50bf92b6-f248-4853-acd5-2a09af69a0be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pump"
+				(path "/e0be0fc6-35a9-4dbe-8638-3e88dcb86763"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
