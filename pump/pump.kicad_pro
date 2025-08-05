@@ -616,6 +616,10 @@
     [
       "beaabc7f-9881-4b56-8e29-dca714a8fa25",
       "ControlRelays"
+    ],
+    [
+      "bebee76a-7a2e-4d3f-b9e8-49786a5ceaea",
+      "Mcu"
     ]
   ],
   "text_variables": {}
