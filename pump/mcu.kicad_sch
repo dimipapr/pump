@@ -1825,18 +1825,6 @@
 		(color 0 0 0 0)
 		(uuid "8515dc1f-e0d4-4e0a-8a20-4d769435b63e")
 	)
-	(junction
-		(at 165.1 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98394969-bc25-4b4e-8269-25757e0e6731")
-	)
-	(junction
-		(at 148.59 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5b6abbc-59cb-409c-beb8-538aae3c61a8")
-	)
 	(wire
 		(pts
 			(xy 80.01 38.1) (xy 80.01 39.37)
@@ -1846,26 +1834,6 @@
 			(type default)
 		)
 		(uuid "01a9b3a1-7f26-4ca6-9181-6adaaa9e6b10")
-	)
-	(wire
-		(pts
-			(xy 165.1 40.64) (xy 148.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03ebdf7a-3a73-4bf5-a63b-8e9822f91fd4")
-	)
-	(wire
-		(pts
-			(xy 148.59 39.37) (xy 148.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09166da5-57bb-474a-944e-f2b796aa8307")
 	)
 	(wire
 		(pts
@@ -1959,16 +1927,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 26.67) (xy 165.1 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f76f35-4364-4786-ad8a-18a970e0fb61")
-	)
-	(wire
-		(pts
 			(xy 30.48 22.86) (xy 33.02 22.86)
 		)
 		(stroke
@@ -2019,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 26.67) (xy 170.18 26.67)
+			(xy 161.29 26.67) (xy 170.18 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2069,17 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 36.83) (xy 165.1 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a589c42a-8baf-409f-9573-7cf44370e960")
-	)
-	(wire
-		(pts
-			(xy 148.59 40.64) (xy 148.59 41.91)
+			(xy 148.59 39.37) (xy 148.59 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2096,16 +2044,6 @@
 			(type default)
 		)
 		(uuid "b57754b8-937a-46c6-ad92-e9a47d48ca07")
-	)
-	(wire
-		(pts
-			(xy 161.29 26.67) (xy 165.1 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd856d23-3c8e-43ac-a28a-4861230daaf3")
 	)
 	(wire
 		(pts
@@ -2529,94 +2467,6 @@
 			(project "pump"
 				(path "/e0be0fc6-35a9-4dbe-8638-3e88dcb86763/bebee76a-7a2e-4d3f-b9e8-49786a5ceaea"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b686adb-af83-443b-a17b-6d40b498a95d")
-		(property "Reference" "C5"
-			(at 168.91 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 168.91 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 166.0652 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 165.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNo" "CL05B104KB54PNC"
-			(at 165.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d35f135-65fb-4777-8612-89277919c36f")
-		)
-		(pin "1"
-			(uuid "73c0e61b-07a1-49a7-a42c-015facbb3a97")
-		)
-		(instances
-			(project "pump"
-				(path "/e0be0fc6-35a9-4dbe-8638-3e88dcb86763/bebee76a-7a2e-4d3f-b9e8-49786a5ceaea"
-					(reference "C5")
 					(unit 1)
 				)
 			)
