@@ -6,4 +6,5 @@ Display: SSD1306 OLED (I²C)
 
 MCU: 3.3V
 LTE: 5V
+    RX, TX pins are directly connected to simcom chip, operating at 3.3V
 PRESSURE CENSOR: 5V
