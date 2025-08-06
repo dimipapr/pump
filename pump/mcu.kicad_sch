@@ -1916,7 +1916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled"
 			(at 99.06 25.4 0)
 			(effects
 				(font
