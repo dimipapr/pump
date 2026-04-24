@@ -89,6 +89,80 @@ TBD
 
 ---
 
+# 3. High-Level Functionality
+
+This section describes the main system capabilities in simple language for review by non-technical stakeholders.
+
+## 3.1 Remote Pump Control
+
+The user can start or stop the irrigation pump remotely through a web or mobile interface.
+
+## 3.2 Command Confirmation
+
+After a remote command is sent, the system checks whether the command was actually executed.
+
+For example, if the user sends a Start command, the system checks whether the pump actually started.
+
+## 3.3 Failure Notification
+
+If the system cannot confirm that a command was successfully executed within a defined time, it notifies the user.
+
+## 3.4 Pump and Power Monitoring
+
+The system monitors the pump operating state and the electrical power supply.
+
+The user is notified when the pump state changes, when power is lost, or when power is restored.
+
+## 3.5 Pressure Monitoring
+
+The system continuously monitors pressure and notifies the user when pressure moves outside safe limits.
+
+This may help detect cases such as pipe rupture or blockage.
+
+## 3.6 Historical Data
+
+The system records and displays historical information such as:
+
+- Pump operating hours
+- Pressure changes during operation
+- Electrical energy consumption
+- Faults
+- Automatic shutdowns
+
+## 3.7 Local Safety Protection
+
+The system can execute critical protection actions locally on the device, even without internet connectivity.
+
+## 3.8 Equipment Protection
+
+The system can automatically stop operation in cases that may damage the pump or irrigation system, such as dry run or pressure limit violations.
+
+## 3.9 Manual Operation Compatibility
+
+The existing manual switches in the electrical panel remain usable.
+
+When the pump is operated manually, the system recognizes this operation.
+
+## 3.10 System Isolation
+
+A manual isolation switch allows the IoT equipment to be disconnected from the base control system if needed.
+
+## 3.11 Offline Operation
+
+The system continues local functions and protection actions even when internet connectivity is lost.
+
+## 3.12 Connectivity Options
+
+The product is intended to support SIM, Wi-Fi, and Ethernet connectivity.
+
+## 3.13 Multiple Device Monitoring
+
+The digital interface allows users to monitor and control multiple devices from one environment.
+
+## 3.14 Multiple Users and Roles
+
+Multiple users can access the same device with different roles and permissions.
+
 # 3. Product Requirements
 
 ## 3.1 Control and Verification
