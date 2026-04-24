@@ -4,7 +4,7 @@ set -euo pipefail
 MODEL="${MODEL:-qwen2.5:7b}"
 DATE="$(date +%Y-%m-%d_%H-%M-%S)"
 OUT="reviews/full_review_${DATE}.md"
-
+cat prompts/review_full_document.md
 {
   echo "# Prompt"
   cat prompts/review_full_document.md
